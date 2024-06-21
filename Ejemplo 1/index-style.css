@@ -1,0 +1,48 @@
+body{
+    margin: 0px;
+}
+thead, caption{
+    color:rgb(163, 81, 4);
+    border: 2px solid yellowgreen;
+}
+.anav{
+    font-family: "Playwrite FR Moderne", cursive;
+    color:orangered;
+    text-decoration: none;
+}
+
+nav{
+    background-color: rgb(39, 38, 38);
+    padding: 10px;
+}
+
+.ulnav{
+    display: flex;
+    list-style-type: none;
+}
+
+.linav{
+    padding-right: 50px;
+}
+
+.tablecontainer{
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    margin: 40px;
+    font-family: "Kanit", sans-serif;
+    border: 3px solid violet;
+}
+
+footer{
+    font-family: "Kanit", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+}
+
+tbody{
+    color:rgb(58, 117, 185);
+}

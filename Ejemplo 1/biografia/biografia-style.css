@@ -1,0 +1,60 @@
+body{
+    margin: 0px;
+    background-color: rgb(241, 231, 219);
+}
+
+
+.htitulo{
+    font-family: "DM Serif Text", serif-sans;
+    color: rgb(245, 113, 113);
+    text-align: center;
+}
+
+.mio{
+    color: rgb(11, 162, 250);
+    font-family: "Playwrite ES", cursive;
+}
+
+.nombres{
+    color: rgb(238, 156, 88);
+    font-family: 'DM Serif Text';
+}
+
+.tablep{
+    color: rgb(250, 63, 63);
+}
+
+.atri{
+    color: rgb(119, 56, 14);
+    font-family: "Dancing Script", cursive;
+}
+
+.tableconte{
+    margin: 30px;
+    border: inset royalblue;
+    justify-content: center;
+}
+
+.ulnav{
+    display: flex;
+    list-style-type: none;
+}
+
+.linav{
+    padding-right: 50px;
+}
+
+.anav{
+    font-family: "Playwrite FR Moderne", cursive;
+    color:orangered;
+    text-decoration: none;
+}
+
+nav{
+    background-color: rgb(39, 38, 38);
+    padding: 10px;
+}
+
+img{
+    margin: 100px;
+}
