@@ -38,6 +38,14 @@
             </div>
         </nav>
         <div class="container text-center">
+            <%
+                String nombreProducto = request.getParameter("nombreProducto");
+                if (nombreProducto == null || nombreProducto.isEmpty()) {
+            %>
+            <h1>Por favor, completa el Nombre</h1>
+            <%
+            } else {
+            %>
             <% ArrayList<String> datosProducto = (ArrayList) request.getAttribute("datosProducto");%>
             <% if (datosProducto != null) { %>
             <h1>El Producto Llego con exito</h1>
@@ -47,6 +55,11 @@
             </ul>
             <% }%>
             <% }%>
+
+            <h1>El Producto Llegó con éxito</h1>
+            <%
+                }
+            %>
         </div>
         <div class="container mt-5">
             <form action="/SGBDProductoPu/producto-servlet" method="post" enctype="multipart/form-data">
